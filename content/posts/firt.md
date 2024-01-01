@@ -5,4 +5,4 @@ draft: false
 ---
 
 # Hello Hugo!
-新的一年开始写bolg
+新的一年开始写blog
