@@ -1,6 +1,8 @@
 ---
 title: "Github git SSH 代理设置"
 date: 2024-01-06T17:43:47+08:00
+tags: ["git"]
+categories: ["技术大杂烩"]
 draft: flase
 ---
 

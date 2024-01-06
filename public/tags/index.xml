@@ -3,5 +3,17 @@
         <title>Tags - 标签 - Bahtyar&#39;s Blog</title>
         <link>http://blog.cc-cloud.top/tags/</link>
         <description>Tags - 标签 - Bahtyar&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="http://blog.cc-cloud.top/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</lastBuildDate><atom:link href="http://blog.cc-cloud.top/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>git</title>
+    <link>http://blog.cc-cloud.top/tags/git/</link>
+    <pubDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/tags/git/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>submodule</title>
+    <link>http://blog.cc-cloud.top/tags/submodule/</link>
+    <pubDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/tags/submodule/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

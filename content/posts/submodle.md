@@ -1,6 +1,8 @@
 ---
-title: "小试Submodle"
+title: "小试Submodule"
 date: 2024-01-06T21:25:24+08:00
+tags: ["git", "submodule"]
+categories: ["技术大杂烩"]
 draft: false
 ---
 
