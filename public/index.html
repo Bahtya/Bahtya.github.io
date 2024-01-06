@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
-	<meta name="generator" content="Hugo 0.112.3">
+	<meta name="generator" content="Hugo 0.121.1">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
@@ -9,8 +9,8 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://blog.cc-cloud.top/" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Bahtyar&#39;s Blog"/>
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Bahtyar&#39;s Blog"/>
 <meta name="twitter:description" content=""/>
 <meta name="application-name" content="Bahtyar&#39;s Blog">
 <meta name="apple-mobile-web-app-title" content="Bahtyar&#39;s Blog"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -30,7 +30,7 @@
             <a href="/" title="Bahtyar&#39;s Blog"></a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a class="menu-item" href="/index.xml" title="RSS"><i class="fa-solid fa-rss fa-fw" title="RSS"></i> </a><a href="#" onclick="return false;" class="menu-item theme-switch" title="切换主题">
+            <div class="menu-inner"><a class="menu-item active" href="/"> 首页 </a><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a class="menu-item" href="/index.xml" title="RSS"><i class="fa-solid fa-rss fa-fw" title="RSS"></i> </a><a href="#" onclick="return false;" class="menu-item theme-switch" title="切换主题">
                     <i class="fa-solid fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -46,7 +46,7 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><div class="menu-item"><a href="/index.xml" title="RSS"><i class="fa-solid fa-rss fa-fw" title="RSS"></i> </a>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/" title="">首页</a><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><div class="menu-item"><a href="/index.xml" title="RSS"><i class="fa-solid fa-rss fa-fw" title="RSS"></i> </a>
                 <span>&nbsp;|&nbsp;</span><a href="#" onclick="return false;" class="theme-switch" title="切换主题">
                     <i class="fa-solid fa-adjust fa-fw"></i>
                 </a>
@@ -55,12 +55,20 @@
 </header><main class="main">
                 <div class="container"><div class="page home" data-home="posts"><div class="home-profile"></div>
 <div class="summary-card"><article class="summary" itemscope itemtype="http://schema.org/Article" data-image="hide"><h2 class="single-title" itemprop="name headline">
+        <a href="/posts/submodle/">小试Submodle</a>
+    </h2><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fa-solid fa-user-circle fa-fw"></i>作者</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2024-01-06">2024-01-06</time></span></div><a class="content" href="/posts/submodle/">创建完hugo之后，换了一台电脑后将博客仓库拉下来后发现主题不见了，才反应过来是不是因为当时是子模块方式创建的仓库，默认pull不包括。故又</a><div class="post-footer"></div>
+</article>
+<article class="summary" itemscope itemtype="http://schema.org/Article" data-image="hide"><h2 class="single-title" itemprop="name headline">
+        <a href="/posts/git/">Github git SSH 代理设置</a>
+    </h2><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fa-solid fa-user-circle fa-fw"></i>作者</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2024-01-06">2024-01-06</time></span></div><a class="content" href="/posts/git/">为了加速 Git 的访问速度，可以按照下面的方式对 SSH 进行配置来加速。 准备 准备http代理服务端 http://127.0.0.1:7890 准备仓库和验证token git config --global https.https://github.com.proxy http://127.0.0.1:7890 # 使用github</a><div class="post-footer"></div>
+</article>
+<article class="summary" itemscope itemtype="http://schema.org/Article" data-image="hide"><h2 class="single-title" itemprop="name headline">
         <a href="/posts/firt/">Firt</a>
     </h2><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fa-solid fa-user-circle fa-fw"></i>作者</a></span>&nbsp;<span class="post-publish">发布于 <time datetime="2024-01-01">2024-01-01</time></span></div><a class="content" href="/posts/firt/">Hello Hugo! 新的一年开始写blog</a><div class="post-footer"></div>
 </article>
 </div></div></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.112.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.2"><i class="fa-solid fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.121.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.2"><i class="fa-solid fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw"></i><span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/"></a></span></div>
 </div>
 </footer>

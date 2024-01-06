@@ -1,26 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bahtyar&#39;s Blog</title>
-    <link>http://blog.cc-cloud.top/</link>
-    <description>Recent content on Bahtyar&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Sat, 06 Jan 2024 17:43:47 +0800</lastBuildDate>
-    <atom:link href="http://blog.cc-cloud.top/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Github git SSH 代理设置</title>
-      <link>http://blog.cc-cloud.top/posts/git/</link>
-      <pubDate>Sat, 06 Jan 2024 17:43:47 +0800</pubDate>
-      <guid>http://blog.cc-cloud.top/posts/git/</guid>
-      <description>为了加速 Git 的访问速度，可以按照下面的方式对 SSH 进行配置来加速。 准备 准备http代理服务端 http://127.0.0.1:7890 准备仓库和验证token git config --global https.https://github.com.proxy http://127.0.0.1:7890 # 使用github</description>
-    </item>
-    <item>
-      <title>Firt</title>
-      <link>http://blog.cc-cloud.top/posts/firt/</link>
-      <pubDate>Mon, 01 Jan 2024 13:39:50 +0800</pubDate>
-      <guid>http://blog.cc-cloud.top/posts/firt/</guid>
-      <description>Hello Hugo! 新的一年开始写blog</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Bahtyar&#39;s Blog</title>
+        <link>http://blog.cc-cloud.top/</link>
+        <description>Bahtyar&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</lastBuildDate>
+            <atom:link href="http://blog.cc-cloud.top/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>小试Submodle</title>
+    <link>http://blog.cc-cloud.top/posts/submodle/</link>
+    <pubDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/posts/submodle/</guid>
+    <description><![CDATA[创建完hugo之后，换了一台电脑后将博客仓库拉下来后发现主题不见了，才反应过来是不是因为当时是子模块方式创建的仓库，默认pull不包括。故又]]></description>
+</item>
+<item>
+    <title>Github git SSH 代理设置</title>
+    <link>http://blog.cc-cloud.top/posts/git/</link>
+    <pubDate>Sat, 06 Jan 2024 17:43:47 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/posts/git/</guid>
+    <description><![CDATA[为了加速 Git 的访问速度，可以按照下面的方式对 SSH 进行配置来加速。 准备 准备http代理服务端 http://127.0.0.1:7890 准备仓库和验证token git config --global https.https://github.com.proxy http://127.0.0.1:7890 # 使用github]]></description>
+</item>
+<item>
+    <title>Firt</title>
+    <link>http://blog.cc-cloud.top/posts/firt/</link>
+    <pubDate>Mon, 01 Jan 2024 13:39:50 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/posts/firt/</guid>
+    <description><![CDATA[Hello Hugo! 新的一年开始写blog]]></description>
+</item>
+</channel>
 </rss>
