@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 06 Jan 2024 17:43:47 +0800</lastBuildDate>
     <atom:link href="http://blog.cc-cloud.top/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git代理</title>
-      <link>http://blog.cc-cloud.top/posts/git%E4%BB%A3%E7%90%86/</link>
+      <title>Github git SSH 代理设置</title>
+      <link>http://blog.cc-cloud.top/posts/git/</link>
       <pubDate>Sat, 06 Jan 2024 17:43:47 +0800</pubDate>
-      <guid>http://blog.cc-cloud.top/posts/git%E4%BB%A3%E7%90%86/</guid>
-      <description>git config --global https.https://github.com.proxy http://127.0.0.1:7890</description>
+      <guid>http://blog.cc-cloud.top/posts/git/</guid>
+      <description>为了加速 Git 的访问速度，可以按照下面的方式对 SSH 进行配置来加速。 准备 准备http代理服务端 http://127.0.0.1:7890 准备仓库和验证token git config --global https.https://github.com.proxy http://127.0.0.1:7890 # 使用github</description>
     </item>
     <item>
       <title>Firt</title>
