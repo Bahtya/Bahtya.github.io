@@ -6,8 +6,15 @@
     <description>Recent content on Bahtyar&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 01 Jan 2024 13:39:50 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jan 2024 17:43:47 +0800</lastBuildDate>
     <atom:link href="http://blog.cc-cloud.top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git代理</title>
+      <link>http://blog.cc-cloud.top/posts/git%E4%BB%A3%E7%90%86/</link>
+      <pubDate>Sat, 06 Jan 2024 17:43:47 +0800</pubDate>
+      <guid>http://blog.cc-cloud.top/posts/git%E4%BB%A3%E7%90%86/</guid>
+      <description>git config --global https.https://github.com.proxy http://127.0.0.1:7890</description>
+    </item>
     <item>
       <title>Firt</title>
       <link>http://blog.cc-cloud.top/posts/firt/</link>
