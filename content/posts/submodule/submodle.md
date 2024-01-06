@@ -1,8 +1,12 @@
 ---
 title: "小试Submodule"
+author: "Bahtyar"
 date: 2024-01-06T21:25:24+08:00
-tags: ["git", "submodule"]
+tags: [git, submodule]
 categories: ["技术大杂烩"]
+resources:
+- name: "featured-image"
+  src: "featured-image.webp"
 draft: false
 ---
 

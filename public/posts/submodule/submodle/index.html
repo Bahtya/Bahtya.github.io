@@ -4,33 +4,33 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Github git SSH 代理设置 - Bahtyar&#39;s Blog</title><meta name="description" content=""><meta property="og:title" content="Github git SSH 代理设置" />
-<meta property="og:description" content="为了加速 Git 的访问速度，可以按照下面的方式对 SSH 进行配置来加速。 准备 准备http代理服务端 http://127.0.0.1:7890 准备仓库和验证token git config --global https.https://github.com.proxy http://127.0.0.1:7890 # 使用github" />
+        <title>小试Submodule - Bahtyar&#39;s Blog</title><meta name="description" content=""><meta property="og:title" content="小试Submodule" />
+<meta property="og:description" content="创建完hugo之后，换了一台电脑后将博客仓库拉下来后发现主题不见了，才反应过来是不是因为当时是子模块方式创建的仓库，默认pull不包括。故又" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://blog.cc-cloud.top/posts/git/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-01-06T17:43:47+08:00" />
-<meta property="article:modified_time" content="2024-01-06T17:43:47+08:00" />
+<meta property="og:url" content="http://blog.cc-cloud.top/posts/submodule/submodle/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-01-06T21:25:24+08:00" />
+<meta property="article:modified_time" content="2024-01-06T21:25:24+08:00" />
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Github git SSH 代理设置"/>
-<meta name="twitter:description" content="为了加速 Git 的访问速度，可以按照下面的方式对 SSH 进行配置来加速。 准备 准备http代理服务端 http://127.0.0.1:7890 准备仓库和验证token git config --global https.https://github.com.proxy http://127.0.0.1:7890 # 使用github"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="小试Submodule"/>
+<meta name="twitter:description" content="创建完hugo之后，换了一台电脑后将博客仓库拉下来后发现主题不见了，才反应过来是不是因为当时是子模块方式创建的仓库，默认pull不包括。故又"/>
 <meta name="application-name" content="Bahtyar&#39;s Blog">
 <meta name="apple-mobile-web-app-title" content="Bahtyar&#39;s Blog"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://blog.cc-cloud.top/posts/git/" /><link rel="prev" href="http://blog.cc-cloud.top/posts/firt/" /><link rel="next" href="http://blog.cc-cloud.top/posts/submodule/submodle/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://blog.cc-cloud.top/posts/submodule/submodle/" /><link rel="prev" href="http://blog.cc-cloud.top/posts/git/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Github git SSH 代理设置",
+        "headline": "小试Submodule",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/blog.cc-cloud.top\/posts\/git\/"
-        },"genre": "posts","keywords": "git","wordcount":  89 ,
-        "url": "http:\/\/blog.cc-cloud.top\/posts\/git\/","datePublished": "2024-01-06T17:43:47+08:00","dateModified": "2024-01-06T17:43:47+08:00","publisher": {
+            "@id": "http:\/\/blog.cc-cloud.top\/posts\/submodule\/submodle\/"
+        },"genre": "posts","keywords": "git, submodule","wordcount":  100 ,
+        "url": "http:\/\/blog.cc-cloud.top\/posts\/submodule\/submodle\/","datePublished": "2024-01-06T21:25:24+08:00","dateModified": "2024-01-06T21:25:24+08:00","publisher": {
             "@type": "Organization",
-            "name": "作者"},"author": {
+            "name": "Bahtyar"},"author": {
                 "@type": "Person",
-                "name": "作者"
+                "name": "Bahtyar"
             },"description": ""
     }
     </script></head><body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -67,9 +67,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single" data-toc="disable"><div class="single-card" ><h2 class="single-title animated flipInX">Github git SSH 代理设置</h2><div class="post-meta">
-                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fa-solid fa-user-circle fa-fw"></i>作者</a></span>&nbsp;<span class="post-category">出版于  <a href="/categories/%E6%8A%80%E6%9C%AF%E5%A4%A7%E6%9D%82%E7%83%A9/"><i class="fa-regular fa-folder fa-fw"></i>技术大杂烩</a></span></div>
-                <div class="post-meta-line"><span><i class="fa-regular fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-06">2024-01-06</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw"></i>&nbsp;约 89 字</span>&nbsp;
+        </div><article class="page single" data-toc="disable"><div class="single-card" ><h2 class="single-title animated flipInX">小试Submodule</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fa-solid fa-user-circle fa-fw"></i>Bahtyar</a></span>&nbsp;<span class="post-category">出版于  <a href="/categories/%E6%8A%80%E6%9C%AF%E5%A4%A7%E6%9D%82%E7%83%A9/"><i class="fa-regular fa-folder fa-fw"></i>技术大杂烩</a></span></div>
+                <div class="post-meta-line"><span><i class="fa-regular fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-06">2024-01-06</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw"></i>&nbsp;约 100 字</span>&nbsp;
                     <span><i class="fa-regular fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟</span>&nbsp;</div>
             </div>
             
@@ -78,28 +78,18 @@
                         <span>目录</span>
                         <span><i class="details-icon fa-solid fa-angle-right"></i></span>
                     </div>
-                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#准备">准备</a></li>
-  </ul>
-</nav></div>
-                </div><div class="content" id="content"><p>为了加速 Git 的访问速度，可以按照下面的方式对 SSH 进行配置来加速。</p>
-<h2 id="准备">准备</h2>
-<p>准备http代理服务端</p>
-<pre><code>http://127.0.0.1:7890
-</code></pre>
-<p>准备仓库和验证token</p>
-<pre tabindex="0"><code> git config --global https.https://github.com.proxy http://127.0.0.1:7890
- # 使用github Token： Personal access tokens (classic)
- git remote remove origin
- git remote add origin https://token@github.com/Bahtya/Bahtya.github.io.git
+                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+                </div><div class="content" id="content"><p>创建完hugo之后，换了一台电脑后将博客仓库拉下来后发现主题不见了，才反应过来是不是因为当时是子模块方式创建的仓库，默认pull不包括。故又去查了一下用法。</p>
+<p>git介绍<a href="https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97" target="_blank" rel="noopener noreffer">7.11 Git 工具 - 子模块</a></p>
+<pre tabindex="0"><code>git submodule init
+git pull --recurse-submodules
 </code></pre></div><div class="post-footer" id="post-footer">
     <div class="post-info"><div class="post-info-tag"><span><a href="/tags/git/">git</a>
+                </span><span><a href="/tags/submodule/">submodule</a>
                 </span></div><div class="post-info-line"><div class="post-info-mod">
                 <span>更新于 2024-01-06</span>
             </div><div class="post-info-mod"></div>
-        </div></div><div class="post-nav"><a href="/posts/firt/" class="prev" rel="prev" title="Firt"><i class="fa-solid fa-angle-left fa-fw"></i>Previous Post</a>
-            <a href="/posts/submodule/submodle/" class="next" rel="next" title="小试Submodule">Next Post<i class="fa-solid fa-angle-right fa-fw"></i></a></div></div>
+        </div></div><div class="post-nav"><a href="/posts/git/" class="prev" rel="prev" title="Github git SSH 代理设置"><i class="fa-solid fa-angle-left fa-fw"></i>Previous Post</a></div></div>
 </div></article></div>
             </main>
             <footer class="footer"><div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.121.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.2"><i class="fa-solid fa-hand-holding-heart fa-fw"></i> FeelIt</a>

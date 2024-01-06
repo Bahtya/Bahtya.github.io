@@ -5,8 +5,8 @@
         <description>技术大杂烩 - 分类 - Bahtyar&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</lastBuildDate><atom:link href="http://blog.cc-cloud.top/categories/%E6%8A%80%E6%9C%AF%E5%A4%A7%E6%9D%82%E7%83%A9/" rel="self" type="application/rss+xml" /><item>
     <title>小试Submodule</title>
-    <link>http://blog.cc-cloud.top/posts/submodle/</link>
-    <pubDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/posts/submodle/</guid>
+    <link>http://blog.cc-cloud.top/posts/submodule/submodle/</link>
+    <pubDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/posts/submodule/submodle/</guid>
     <description><![CDATA[创建完hugo之后，换了一台电脑后将博客仓库拉下来后发现主题不见了，才反应过来是不是因为当时是子模块方式创建的仓库，默认pull不包括。故又]]></description>
 </item>
 <item>
