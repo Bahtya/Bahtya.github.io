@@ -1,0 +1,13 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>archlinux - 标签 - Bahtyar&#39;s Blog</title>
+        <link>http://blog.cc-cloud.top/tags/archlinux/</link>
+        <description>archlinux - 标签 - Bahtyar&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Jan 2024 22:47:16 &#43;0800</lastBuildDate><atom:link href="http://blog.cc-cloud.top/tags/archlinux/" rel="self" type="application/rss+xml" /><item>
+    <title>ArchLinux用户绕不开的系统回滚</title>
+    <link>http://blog.cc-cloud.top/posts/archlinuxrec/archrecover/</link>
+    <pubDate>Mon, 08 Jan 2024 22:47:16 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/posts/archlinuxrec/archrecover/</guid>
+    <description><![CDATA[原本以为archlinux的回滚是个玩笑，怎么会轻易更新挂掉，但是自动用了holoiso系统，也是恢复过多次文件系统了，很可能是holois]]></description>
+</item>
+</channel>
+</rss>

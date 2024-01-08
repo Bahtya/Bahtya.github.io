@@ -4,35 +4,35 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>小试Submodule - Bahtyar&#39;s Blog</title><meta name="description" content="a"><meta property="og:title" content="小试Submodule" />
-<meta property="og:description" content="创建完hugo之后，换了一台电脑后将博客仓库拉下来后发现主题不见了，才反应过来是不是因为当时是子模块方式创建的仓库，默认pull不包括。故又" />
+        <title>ArchLinux用户绕不开的系统回滚 - Bahtyar&#39;s Blog</title><meta name="description" content="a"><meta property="og:title" content="ArchLinux用户绕不开的系统回滚" />
+<meta property="og:description" content="原本以为archlinux的回滚是个玩笑，怎么会轻易更新挂掉，但是自动用了holoiso系统，也是恢复过多次文件系统了，很可能是holois" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://blog.cc-cloud.top/posts/submodule/submodle/" /><meta property="og:image" content="http://blog.cc-cloud.top/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-01-06T21:25:24+08:00" />
-<meta property="article:modified_time" content="2024-01-06T22:36:53+08:00" />
+<meta property="og:url" content="http://blog.cc-cloud.top/posts/archlinuxrec/archrecover/" /><meta property="og:image" content="http://blog.cc-cloud.top/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-01-08T22:47:16+08:00" />
+<meta property="article:modified_time" content="2024-01-08T23:00:17+08:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://blog.cc-cloud.top/logo.png"/>
 
-<meta name="twitter:title" content="小试Submodule"/>
-<meta name="twitter:description" content="创建完hugo之后，换了一台电脑后将博客仓库拉下来后发现主题不见了，才反应过来是不是因为当时是子模块方式创建的仓库，默认pull不包括。故又"/>
+<meta name="twitter:title" content="ArchLinux用户绕不开的系统回滚"/>
+<meta name="twitter:description" content="原本以为archlinux的回滚是个玩笑，怎么会轻易更新挂掉，但是自动用了holoiso系统，也是恢复过多次文件系统了，很可能是holois"/>
 <meta name="application-name" content="Bahtyar&#39;s Blog">
 <meta name="apple-mobile-web-app-title" content="Bahtyar&#39;s Blog"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://blog.cc-cloud.top/posts/submodule/submodle/" /><link rel="prev" href="http://blog.cc-cloud.top/posts/git/" /><link rel="next" href="http://blog.cc-cloud.top/posts/archlinuxrec/archrecover/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://blog.cc-cloud.top/posts/archlinuxrec/archrecover/" /><link rel="prev" href="http://blog.cc-cloud.top/posts/submodule/submodle/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "小试Submodule",
+        "headline": "ArchLinux用户绕不开的系统回滚",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/blog.cc-cloud.top\/posts\/submodule\/submodle\/"
-        },"genre": "posts","keywords": "git, submodule","wordcount":  100 ,
-        "url": "http:\/\/blog.cc-cloud.top\/posts\/submodule\/submodle\/","datePublished": "2024-01-06T21:25:24+08:00","dateModified": "2024-01-06T22:36:53+08:00","publisher": {
+            "@id": "http:\/\/blog.cc-cloud.top\/posts\/archlinuxrec\/archrecover\/"
+        },"genre": "posts","keywords": "btrfs, archlinux","wordcount":  210 ,
+        "url": "http:\/\/blog.cc-cloud.top\/posts\/archlinuxrec\/archrecover\/","datePublished": "2024-01-08T22:47:16+08:00","dateModified": "2024-01-08T23:00:17+08:00","publisher": {
             "@type": "Organization",
-            "name": "Bahtyar"},"author": {
+            "name": "作者"},"author": {
                 "@type": "Person",
-                "name": "Bahtyar"
+                "name": "作者"
             },"description": ""
     }
     </script></head><body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -69,9 +69,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single" data-toc="enable"><div class="single-card" ><h2 class="single-title animated flipInX">小试Submodule</h2><div class="post-meta">
-                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fa-solid fa-user-circle fa-fw"></i>Bahtyar</a></span>&nbsp;<span class="post-category">出版于  <a href="/categories/%E6%8A%80%E6%9C%AF%E5%A4%A7%E6%9D%82%E7%83%A9/"><i class="fa-regular fa-folder fa-fw"></i>技术大杂烩</a></span></div>
-                <div class="post-meta-line"><span><i class="fa-regular fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-06">2024-01-06</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw"></i>&nbsp;约 100 字</span>&nbsp;
+        </div><article class="page single" data-toc="enable"><div class="single-card" ><h2 class="single-title animated flipInX">ArchLinux用户绕不开的系统回滚</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fa-solid fa-user-circle fa-fw"></i>作者</a></span>&nbsp;<span class="post-category">出版于  <a href="/categories/%E6%8A%80%E6%9C%AF%E5%A4%A7%E6%9D%82%E7%83%A9/"><i class="fa-regular fa-folder fa-fw"></i>技术大杂烩</a></span></div>
+                <div class="post-meta-line"><span><i class="fa-regular fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-08">2024-01-08</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw"></i>&nbsp;约 210 字</span>&nbsp;
                     <span><i class="fa-regular fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟</span>&nbsp;</div>
             </div>
             
@@ -81,19 +81,25 @@
                         <span><i class="details-icon fa-solid fa-angle-right"></i></span>
                     </div>
                     <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-                </div><div class="content" id="content"><p>创建完hugo之后，换了一台电脑后将博客仓库拉下来后发现主题不见了，才反应过来是不是因为当时是子模块方式创建的仓库，默认pull不包括。故又去查了一下用法。</p>
-<p>git介绍<a href="https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97" target="_blank" rel="noopener noreffer">7.11 Git 工具 - 子模块</a></p>
-<pre tabindex="0"><code>git submodule init
-git pull --recurse-submodules
+                </div><div class="content" id="content"><p>原本以为archlinux的回滚是个玩笑，怎么会轻易更新挂掉，但是自动用了holoiso系统，也是恢复过多次文件系统了，很可能是holoiso本身的问题，更新完总是会挂掉。还好是btrfs文件系统，恢复起来很容易，这里使用的是manjaro的CDLive</p>
+<pre tabindex="0"><code>sudo -o subvol=/ /dev/nvmen1p2 /mnt
+sudo mv @ @bad
+# 找到最后一个可用快照，进行创建快照
+sudo btrfs subvolume snap @snapshots/921/snapshot @
+sudo btrfs property set -ts @ ro false
+sudo btrfs subvolume list
+# 记下@的volid
+sudo btrfs subvolume set-default 922 /mnt
+# 修改fstab的挂载子卷subvol
+sudo vi /@/etc/fstab
 </code></pre></div><div class="post-footer" id="post-footer">
-    <div class="post-info"><div class="post-info-tag"><span><a href="/tags/git/">git</a>
-                </span><span><a href="/tags/submodule/">submodule</a>
+    <div class="post-info"><div class="post-info-tag"><span><a href="/tags/btrfs/">btrfs</a>
+                </span><span><a href="/tags/archlinux/">archlinux</a>
                 </span></div><div class="post-info-line"><div class="post-info-mod">
-                <span>更新于 2024-01-06&nbsp;<a class="git-hash" href="https://github.com/Bahtya/Bahtya.github.io/commit/9a039979ebc52f421b02977f902f289059dc9bd7" target="_blank" title="committed&nbsp;by&nbsp;bahtyar(bahtyar153@qq.com)&nbsp;9a03997:&nbsp;post">
-                            <i class="fa-solid fa-hashtag fa-fw"></i>9a03997</a></span>
+                <span>更新于 2024-01-08&nbsp;<a class="git-hash" href="https://github.com/Bahtya/Bahtya.github.io/commit/7b966f736d3817febe57f06221c75f9bbb3146bb" target="_blank" title="committed&nbsp;by&nbsp;bahtyar(you)&nbsp;7b966f7:&nbsp;ok">
+                            <i class="fa-solid fa-hashtag fa-fw"></i>7b966f7</a></span>
             </div><div class="post-info-mod"></div>
-        </div></div><div class="post-nav"><a href="/posts/git/" class="prev" rel="prev" title="Github git SSH 代理设置"><i class="fa-solid fa-angle-left fa-fw"></i>Previous Post</a>
-            <a href="/posts/archlinuxrec/archrecover/" class="next" rel="next" title="ArchLinux用户绕不开的系统回滚">Next Post<i class="fa-solid fa-angle-right fa-fw"></i></a></div></div>
+        </div></div><div class="post-nav"><a href="/posts/submodule/submodle/" class="prev" rel="prev" title="小试Submodule"><i class="fa-solid fa-angle-left fa-fw"></i>Previous Post</a></div></div>
 </div></article></div>
             </main>
             <footer class="footer"><div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.112.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.2"><i class="fa-solid fa-hand-holding-heart fa-fw"></i> FeelIt</a>

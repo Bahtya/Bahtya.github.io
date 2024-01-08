@@ -3,7 +3,19 @@
         <title>Tags - 标签 - Bahtyar&#39;s Blog</title>
         <link>http://blog.cc-cloud.top/tags/</link>
         <description>Tags - 标签 - Bahtyar&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</lastBuildDate><atom:link href="http://blog.cc-cloud.top/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Jan 2024 22:47:16 &#43;0800</lastBuildDate><atom:link href="http://blog.cc-cloud.top/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>archlinux</title>
+    <link>http://blog.cc-cloud.top/tags/archlinux/</link>
+    <pubDate>Mon, 08 Jan 2024 22:47:16 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/tags/archlinux/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>btrfs</title>
+    <link>http://blog.cc-cloud.top/tags/btrfs/</link>
+    <pubDate>Mon, 08 Jan 2024 22:47:16 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/tags/btrfs/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>git</title>
     <link>http://blog.cc-cloud.top/tags/git/</link>
     <pubDate>Sat, 06 Jan 2024 21:25:24 &#43;0800</pubDate><guid>http://blog.cc-cloud.top/tags/git/</guid>
