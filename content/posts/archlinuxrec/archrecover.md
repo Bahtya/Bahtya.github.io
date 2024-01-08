@@ -6,7 +6,7 @@ categories: ["技术大杂烩"]
 draft: true
 ---
 
-原本以为archlinux的回滚是个玩笑，怎么会轻易更新挂掉，但是自动用了holoiso系统，也是恢复过多次文件系统了，很可能是holoiso本身的问题，更新完总是会挂掉。还好是btrfs文件系统，恢复起来很容易，这里使用的是manjaro的CDLive。
+原本以为archlinux的回滚是个玩笑，怎么会轻易更新挂掉，但是自动用了holoiso系统，也是恢复过多次文件系统了，很可能是holoiso本身的问题，更新完总是会挂掉。还好是btrfs文件系统，恢复起来很容易，这里使用的是manjaro的CDLive
 
 ```
 sudo -o subvol=/ /dev/nvmen1p2 /mnt
